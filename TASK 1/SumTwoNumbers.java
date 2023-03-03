@@ -10,7 +10,7 @@ public class SumTwoNumbers {
         System.out.print("Enter the second number: ");
         int secondNumber = input.nextInt();
         
-        int sum = num1 + num2;
+        int sum = firstNumber + secondNumber;
         
         System.out.println("The sum of " + firstNumber + " and " + secondNumber + " is " + sum + ".");
     }
