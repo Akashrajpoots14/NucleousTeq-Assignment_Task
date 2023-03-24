@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class IOException_Demo {
     public static void main(String[] args)
     {      
-        Scanner scan = new Scanner("Hello Geek!");
+        Scanner scan = new Scanner("Hello World!");
         System.out.println("" + scan.nextLine());
         System.out.println("Exception Output: "
                            + scan.ioException());
