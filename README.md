@@ -16,7 +16,7 @@ This repository contains all the assignments and task done during the weekly tra
 
 - [Week 1  Assignments](https://github.com/Akashrajpoots14/NucleousTeq-Assignment_Task/tree/master/TASK%201)
 - [Week 2 Assignments](https://github.com/Akashrajpoots14/NucleousTeq-Assignment_Task/tree/master/TASK%201)
-- [Week 3 Assignments](https://github.com/Akashrajpoots14/NucleousTeq-Assignment_Task/tree/master/TASK_3)
-- [Week 4 Assignments](https://)
-- [Week 5 Assignments](https://)
+- [Week 3 Assignments](https://github.com/Akashrajpoots14/NucleousTeq-Assignment_Task/tree/master/TASK_2)
+- [Week 4 Assignments](https://github.com/Akashrajpoots14/NucleousTeq-Assignment_Task/tree/week5/TASK_3)
+- [Week 5 Assignments](https://github.com/Akashrajpoots14/NucleousTeq-Assignment_Task/tree/week5/TASK_4)
 
