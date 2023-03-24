@@ -12,7 +12,7 @@ This repository contains all the assignments and task done during the weekly tra
 - WEEK 5 - GENERICS, EXCEPTION & FILE HANLDILING (BY HARDIK)
 
 
-## Task References
+## Assignment References
 
 - [Week 1  Assignments](https://github.com/Akashrajpoots14/NucleousTeq-Assignment_Task/tree/master/TASK%201)
 - [Week 2 Assignments](https://github.com/Akashrajpoots14/NucleousTeq-Assignment_Task/tree/master/TASK%201)
