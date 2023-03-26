@@ -1,83 +1,34 @@
-package TASK_4.EMPLOYEE_MANAGEMENT;
 
-public class Employee {
-    private String name;
-    private String mobileNumber;
-    private String emailId;
-    private int age;
-    private int empId;
-    private double salary;
-    private String designation;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
+import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.Scanner;
 
-    public int getEmpId() {
-        return empId;
-    }
 
-    public String getDesignation() {
-        return designation;
-    }
+class Employee implements Serializable {
 
-    public String getName() {
-        return name;
-    }
+	int id;
+	String name;
+	float salary;
+	long contact_no;
+	String email_id;
 
-    public void setName(String name) {
-        this.name = name;
-    }
+	public Employee(int id, String name, float salary, long contact_no, String email_id) {
+		this.id = id;
+		this.name = name;
+		this.salary = salary;
+		this.contact_no = contact_no;
+		this.email_id = email_id;
+	}
 
-    public String getMobileNumber() {
-        return mobileNumber;
-    }
+	public String toString() {
+		return "\nEmployee Details :" + "\nID: " + this.id + "\nName: " + this.name + "\nSalary: " +
+				this.salary + "\nContact No: " + this.contact_no + "\nEmail-id: " + this.email_id;
+	}
 
-    public void setMobileNumber(String mobileNumber) {
-        this.mobileNumber = mobileNumber;
-    }
-
-    public String getEmailId() {
-        return emailId;
-    }
-
-    public void setEmailId(String emailId) {
-        this.emailId = emailId;
-    }
-
-    public int getAge() {
-        return age;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
-    }
-
-    public double getSalary() {
-        return salary;
-    }
-
-    public void setSalary(double salary) {
-        this.salary = salary;
-    }
-    public void setDesignation(String designation) {
-        this.designation = designation;
-    }
-    public void setEmpId(int empId) {
-        this.empId = empId;
-    }
-
-    @Override
-    public String toString() {
-        return name + ","+ emailId +", " + mobileNumber + ", " + emailId + ", " + age + ", " + salary + " ," + designation  ;
-    }
-
-    public Employee() {
-    }
-
-    public Employee(int empId,String name, String mobileNumber, String emailId, int age, double salary ,String designation) {
-        this.name = name;
-        this.mobileNumber = mobileNumber;
-        this.emailId = emailId;
-        this.age = age;
-        this.salary = salary;
-        this.designation = designation;
-        this.empId = empId;
-    }
 }
