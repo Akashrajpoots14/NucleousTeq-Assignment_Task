@@ -1,0 +1,58 @@
+package ASSIGNMENT.QUEUE_PROGRAM;
+import java.util.*;
+public class QueueProram {
+    public static void reverseFirstKElements(Queue<Integer> queue, int k) {
+        if (k < 0 || k > queue.size()) {
+            System.out.println("Invalid value of k");
+            return;
+        }
+
+        Stack<Integer> stack = new Stack<>();
+
+        for (int i = 0; i < k; i++) {
+            stack.push(queue.remove());
+        }
+
+        while (!stack.empty()) {
+            queue.add(stack.pop());
+        }
+
+        for (int i = 0; i < queue.size() - k; i++) {
+            queue.add(queue.remove());
+        }
+    }
+
+    public static void main(String[] args) {
+
+        Queue<Integer> queue = new LinkedList();
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Number of Inputs = ");
+        int input = 0;
+
+        try {
+            input = sc.nextInt();
+            sc.nextLine();
+
+            for (int i = 0; i < input; i++) {
+                System.out.print("Enter integer = ");
+                int value = sc.nextInt();
+                sc.nextLine();
+                queue.add(value);
+            }
+
+            System.out.print("How many number of integers you reverse = ");
+            int k = sc.nextInt();
+            sc.nextLine();
+
+            System.out.println("Before Reverse");
+            System.out.println(queue);
+
+            reverseFirstKElements(queue, k);
+
+            System.out.println("After Reverse");
+            System.out.println(queue);
+        } catch (Exception e) {
+            System.err.println("Exit");
+        }
+    }
+}
