@@ -1,5 +1,7 @@
 package com.employeemanagement.employeemanagement.service.impl;
 
+import java.util.List;
+
 import org.springframework.stereotype.Service;
 
 import com.employeemanagement.employeemanagement.model.Employee;
@@ -16,11 +18,14 @@ public class EmployeeServiceImpl implements EmployeeService{
         this.employeeRepository = employeeRepository;
     }
     
-    
-    
     @Override
     public Employee saveEmployee(Employee employee) {
         return employeeRepository.save(employee);    
+    }
+
+    @Override
+    public List<Employee> getAllEmployees() {
+        return employeeRepository.findAll();
     }
      
 }
