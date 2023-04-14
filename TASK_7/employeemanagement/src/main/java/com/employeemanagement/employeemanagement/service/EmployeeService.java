@@ -7,4 +7,7 @@ import com.employeemanagement.employeemanagement.model.Employee;
 public interface EmployeeService {
     Employee saveEmployee(Employee employee);
     List<Employee> getAllEmployees();
+    Employee getEmployeeByID(long id);
+    Employee updatEmployee(Employee employee,long id);
+    void deleteEmployee(long id);
 }
