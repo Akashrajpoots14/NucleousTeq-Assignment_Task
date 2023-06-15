@@ -13,6 +13,9 @@ This repository contains all the assignments and task done during the weekly tra
 - WEEK 6 - COLLECTIONS FRAMEWORK LAMBDA EXPRESSION (BY PRIYANKA)
 - WEEK 7 - SQL(BY NAKUL)
 - WEEK 8 - SPRINGBOOT,HIBERNATE,RESTAPI(BY HARDIK & PRIYANKA)
+- WEEK 9 - JUNIT TESTING
+- WEEK 10 - WEB TECHNOLOGIES
+- WEEK 11 - REACT.JS
 
 
 
@@ -25,4 +28,10 @@ This repository contains all the assignments and task done during the weekly tra
 - [Week 5 Assignments](https://github.com/Akashrajpoots14/NucleousTeq-Assignment_Task/tree/week5/TASK_4)
 - [Week 6 Assignments](https://github.com/Akashrajpoots14/NucleousTeq-Assignment_Task/tree/master/TASK_5)
 - [Week 7 Assignments](https://github.com/Akashrajpoots14/NucleousTeq-Assignment_Task/tree/master/TASK_6)
+- [Week 8 Assignments](https://github.com/Akashrajpoots14/NucleousTeq-Assignment_Task/tree/master/TASK_7)
+- [Week 9 Assignments](https://github.com/Akashrajpoots14/NucleousTeq-Assignment_Task/tree/master/TASK_8)
+- [Week 10 Assignments](https://github.com/Akashrajpoots14/NucleousTeq-Assignment_Task/tree/master/TASK_9)
+- [Week 11 Assignments](https://github.com/Akashrajpoots14/NucleousTeq-Assignment_Task/tree/master/TASK_10)
+
+
 
